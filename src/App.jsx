@@ -50,7 +50,7 @@ function App() {
                 transform: `translate(${position.x}px, ${position.y}px)`,
             }}>
             </div>
-            <h1>Proyecto 3</h1>
+            <h1>Mouse Follower</h1>
             <button onClick={() => { setEnabled(!enabled) }}>{enabled ? "Desactivar" : "Activar"} seguir puntero </button>
         </main>
     )
